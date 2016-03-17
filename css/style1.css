@@ -1,0 +1,44 @@
+h1 {
+    /*background: bisque;*/
+    text-align: center;
+}
+.personaldata {
+
+}
+h2{
+    background: powderblue;
+}
+h3,
+table th{
+    background: lightsteelblue;
+}
+
+div div{
+    border-style: solid;
+}
+
+div h3 {
+    border: thin;
+    /*width: 25%;*/
+}
+caption {
+    text-align: left;
+    background: powderblue;
+
+}
+tr th{
+    width: 15%;
+}
+
+.Memo {
+    border: solid;
+    width: 100%;
+}
+body {
+    font-family: Arial;
+}
+#copyright {
+    font-family: "Arial Black";
+    font-size: smaller;
+    font-style: inherit;
+}
