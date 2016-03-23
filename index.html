@@ -10,7 +10,7 @@
     <script src="js/bootstrap.js"></script>
 </head>
 <body class="text-center">
-<nav class="nav navbar-inverse navbar-fixed-top">
+<nav class="nav navbar-inverse navbar-fixed-top ">
     <div class="container">
         <div class="navbar-header">
             <img class="navbar-brand"  src="image/logo-lg.ico">
@@ -20,7 +20,19 @@
             <li class="active"><a href="">Home</a></li>
             <li><a href="#footer">About</a></li>
             <li><a href="#picture-exhibition">Gallery</a></li>
-            <li><a href="">Contact</a></li>
+            <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                    Contact
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="">T1</a></li>
+                    <li><a href="">T2</a></li>
+                    <li><a href="">T3</a></li>
+                    <li><a href="">T4</a></li>
+                </ul>
+            </li>
+
             <li><a href="resume1.html" target="_blank">Website</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -32,6 +44,30 @@
 <div class="jumbotron">
     <h1>My Portfolio</h1>
     <p>This is my Bootstrap exhibition! </p>
+    <!-- 轮播（Carousel）测试 -->
+    <div id="myCarousel" class="carousel ">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data_target="myCarousel" data-slide-to="0" class="active"></li>
+            <li data_target="myCarousel" data-slide-to="1"></li>
+            <li data_target="myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="image/earth.jpg" width="300px">
+            </div>
+            <div class="item">
+                <img src="image/earth-logo.jpg" width="300px">
+            </div>
+            <div class="item">
+                <img src="image/logo.jpg" width="300px">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a  class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a  class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
  </div>
 <div id="picture-exhibition" class="container-fluid">
     <h2>Some of my pictures</h2>
