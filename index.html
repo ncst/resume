@@ -9,15 +9,74 @@
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/bootstrap.js"></script>
 </head>
-<body>
-<nav class="nav navbar-inverse">
+<body class="text-center">
+<nav class="nav navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-           <span class="navbar-brand"> <img class="navbar-brand" src="image/logo-lg.ico">Portfolio</span>
+            <img class="navbar-brand"  src="image/logo-lg.ico">
+            <span class="navbar-brand" >Portfolio</span>
         </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="#footer">About</a></li>
+            <li><a href="#picture-exhibition">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="resume1.html" target="_blank">Website</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="lg"><a href=""><span class="glyphicon glyphicon-log-in"> Login</span></a></li>
+        </ul>
     </div>
-
 </nav>
 
+<div class="jumbotron">
+    <h1>My Portfolio</h1>
+    <p>This is my Bootstrap exhibition! </p>
+ </div>
+<div id="picture-exhibition" class="container-fluid">
+    <h2>Some of my pictures</h2>
+    <div class="row">
+        <div class="col-lg-3">
+            <h3>My picture</h3>
+            <img src="image/earth-logo.jpg" width="250px">
+        </div>
+        <div class="col-lg-3">
+            <h3>My picture</h3>
+            <img src="image/earth-logo.jpg" width="250px">
+        </div>
+        <div class="col-lg-3">
+            <h3>My picture</h3>
+            <img src="image/earth-logo.jpg" width="250px">
+        </div>
+        <div class="col-lg-3">
+            <h3>My picture</h3>
+            <img src="image/earth-logo.jpg" width="250px">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <h3>My picture</h3>
+            <img src="image/earth-logo.jpg" width="250px">
+        </div>
+        <div class="col-lg-3">
+            <h3>My picture</h3>
+            <img src="image/earth-logo.jpg" width="250px">
+        </div>
+        <div class="col-lg-3">
+            <h3>My picture</h3>
+            <img src="image/earth-logo.jpg" width="250px">
+        </div>
+        <div class="col-lg-3">
+            <h3>My picture</h3>
+            <img src="image/earth-logo.jpg" width="250px">
+        </div>
+    </div>
+</div>
+<nav id="footer" class="nav navbar navbar-fixed-bottom panel-footer">
+    <ul class="list-inline">
+        <li>Copyright<a href="">&copy; Joe Wang</a></li>
+        <li><a href="resume1.html" target="_blank">My Website</a></li>
+    </ul>
+</nav>
 </body>
 </html>
